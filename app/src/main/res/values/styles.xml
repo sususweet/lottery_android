@@ -1,0 +1,55 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Card" />
+    <style name="Card.List">
+        <item name="android:foreground">?attr/selectableItemBackground</item>
+        <item name="cardElevation">@dimen/cardview_default_elevation</item>
+        <item name="cardCornerRadius">0dp</item>
+        <item name="android:layout_marginLeft">@dimen/card_shadow_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/card_shadow_horizontal_margin</item>
+        <item name="cardUseCompatPadding">true</item>
+        <item name="android:background">#00000000</item>
+    </style>
+
+    <style name="Card.List.Sectioned">
+        <item name="android:paddingTop">0dp</item>
+    </style>
+
+    <style name="Card.List.LinearLayout">
+    </style>
+
+    <style name="Card.List.Navigation">
+        <item name="cardElevation">4dp</item>
+        <item name="cardUseCompatPadding">false</item>
+        <item name="contentPaddingTop">0dp</item>
+    </style>
+
+    <style name="Card.ListSection">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+    </style>
+
+    <style name="Card.ListItem">
+        <item name="android:background">#00000000</item>
+    </style>
+
+    <style name="Card.ListItem.LinearLayout">
+        <!-- Should combine android:listSelector and android:background -->
+        <item name="android:background">?android:attr/listChoiceBackgroundIndicator</item>
+    </style>
+</resources>

@@ -1,0 +1,13 @@
+android {
+    signingConfigs {
+        release {
+            storeFile file("sususweetrelease.jks")
+            storePassword "19970217tyq"
+            keyAlias "sususweetrelease"
+            keyPassword "19970217tyq"
+        }
+        debug {
+           
+        }
+    }
+}

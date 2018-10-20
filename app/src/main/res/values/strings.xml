@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">随机数生成器</string>
+    <string name="action_settings">设置</string>
+    <string name="lottery_sample_capacity">当前抽样范围：%1$d ~ %2$d</string>
+    <string name="lottery_sample_capacity_count">当前抽样范围：%1$d ~ %2$d\n抽样次数：%3$d</string>
+    <string name="dialog_cancel">取消</string>
+    <string name="dialog_ok">确定</string>
+    <string name="dialog_capacity_setting_title">随机数生成特征</string>
+    <string name="dialog_capacity_setting_no_empty">样本容量不能为空！</string>
+    <string name="dialog_capacity_setting_invalid">样本容量格式错误！</string>
+    <string name="dialog_capacity_setting_max_min_invalid">最小值不能大于等于最大值</string>
+    <string name="dialog_array_count_setting_no_empty">抽样总次数不能为空！</string>
+    <string name="dialog_array_random_start">随机序列生成开始，请等待</string>
+    <string name="lottery_sample_capacity_not_set">样本容量还未设置哦~点击右上角设置按钮设置吧</string>
+    <string name="lottery_random_level_reset">抽样数大于样本空间，采取完全随机抽样</string>
+    <string name="lottery_result_format">%03d</string>
+    <string name="lottery_result_none">***</string>
+    <string name="copyright">Copyright@2017 sususweet</string>
+    <string name="about_version">版本：%1$s</string>
+    <string name="about_version_channel">版本：%1$s(%2$s 渠道)</string>
+    <string name="description">孙晖老师课程专用</string>
+    <string name="dialog_capacity_setting_hint">样本容量</string>
+    <string name="dialog_random_value_hint">随机程度</string>
+    <string name="dialog_random_value_hint_low">不重复抽样</string>
+    <string name="dialog_random_value_hint_high">完全随机抽样</string>
+    <string name="menu_single_random">单随机数</string>
+    <string name="menu_multi_random">随机序列</string>
+    <string name="total_setting_max_string">最大值</string>
+    <string name="total_setting_min_string">最小值</string>
+</resources>

@@ -1,0 +1,6 @@
+<resources>
+    <dimen name="card_shadow_horizontal_margin">-2dp</dimen>
+    <dimen name="card_shadow_vertical_margin">-3dp</dimen>
+    <dimen name="card_elevation">4dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>
